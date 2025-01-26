@@ -1,0 +1,47 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+.btn{
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 798px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.plus:active{
+    background: blue;
+}
+.minus:active{
+    background: red;
+}
+.otabek{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 1rem;
+}
+#userNumber {
+    color: white;
+}
